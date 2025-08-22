@@ -8,7 +8,6 @@ export default function CartPage() {
     removeFromCart,
     increaseQuantity,
     decreaseQuantity,
-    clearCart,
     getSubtotal,
   } = useCart();
 
