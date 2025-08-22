@@ -20,8 +20,8 @@ export default function WishlistPage() {
   }
 
   return (
-    <main className="bg-base-200 min-h-screen px-6 py-10">
-      <h2 className="text-2xl font-semibold mb-6 text-center text-base-content">
+    <main className="bg-base-200 min-h-screen px-6 py-10 pt-20">
+      <h2 className="text-3xl font-semibold mb-6 text-center text-base-content pb-7">
         Your Wishlist💗
       </h2>
 

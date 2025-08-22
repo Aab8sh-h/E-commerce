@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import { useCart } from "@/context/CartContext";
 
@@ -109,13 +108,6 @@ export default function CartPage() {
             <span>Total</span>
             <span>₹{getSubtotal().toFixed(2)}</span>
           </div>
-
-          <button
-            onClick={clearCart}
-            className="mt-4 px-4 py-2 rounded-lg border border-red-400 text-red-500 hover:bg-red-500 hover:text-white transition-colors"
-          >
-            Clear Cart
-          </button>
 
           <button
             onClick={() => alert("Checkout flow not implemented yet!")}
