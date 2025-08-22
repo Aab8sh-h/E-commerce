@@ -36,21 +36,18 @@ export default function CartPage() {
       </h2>
 
       <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-        {/* Cart Item */}
         <div className="md:col-span-2 flex flex-col gap-4">
           {cart.map((item) => (
             <div
               key={item.id}
               className="flex flex-col sm:flex-row items-center bg-base-100 shadow rounded-lg overflow-hidden p-4 gap-4"
             >
-              {/* Image */}
               <img
                 src={item.image}
                 alt={item.title}
                 className="w-24 h-24 object-cover rounded-md"
               />
 
-              {/* Details */}
               <div className="flex flex-col flex-grow gap-2">
                 <Link
                   href={`/product/${item.id}`}
@@ -93,8 +90,7 @@ export default function CartPage() {
           ))}
         </div>
 
-        {/* Summary */}
-        <div className="bg-base-100 shadow-lg rounded-lg p-6 h-fit flex flex-col gap-4">
+        <div className="bg-base-100 shadow-lg rounded-lg p-6 h-fit sticky top-24 flex flex-col gap-4">
           <h3 className="text-lg font-semibold border-b border-gray-300 pb-2">
             Order Summary
           </h3>

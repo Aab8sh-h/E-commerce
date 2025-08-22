@@ -19,6 +19,8 @@ interface SearchProps {
 
 export default function Search({ products }: SearchProps) {
   const [searchQuery, setSearchQuery] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const productsPerPage = 12;
 
   const filteredProducts = products.filter(
     (product) =>
@@ -26,14 +28,29 @@ export default function Search({ products }: SearchProps) {
       product.description.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+  const startIndex = (currentPage - 1) * productsPerPage;
+  const currentProducts = filteredProducts.slice(
+    startIndex,
+    startIndex + productsPerPage
+  );
+
+  const goToPage = (page: number) => {
+    if (page >= 1 && page <= totalPages) setCurrentPage(page);
+  };
+
   return (
     <div>
+      {/* Search Bar */}
       <div className="mb-8 flex justify-center">
         <div className="relative w-full max-w-md">
           <input
             type="text"
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => {
+              setSearchQuery(e.target.value);
+              setCurrentPage(1); 
+            }}
             placeholder="🔍 Search for products..."
             className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 
                        shadow-sm focus:border-primary focus:ring-2 focus:ring-primary/30 
@@ -51,9 +68,10 @@ export default function Search({ products }: SearchProps) {
         </div>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {filteredProducts.length > 0 ? (
-          filteredProducts.map((product) => (
+      {/* Products Grid */}
+      <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+        {currentProducts.length > 0 ? (
+          currentProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))
         ) : (
@@ -62,6 +80,58 @@ export default function Search({ products }: SearchProps) {
           </p>
         )}
       </div>
+
+  
+      {totalPages > 1 && (
+        <div className="flex justify-center items-center gap-2 mt-8">
+         
+          <button
+            onClick={() => goToPage(1)}
+            disabled={currentPage === 1}
+            className="px-2 py-1 disabled:text-gray-400"
+          >
+            «
+          </button>
+          <button
+            onClick={() => goToPage(currentPage - 1)}
+            disabled={currentPage === 1}
+            className="px-2 py-1 disabled:text-gray-400"
+          >
+            ‹
+          </button>
+
+          
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+            <button
+              key={page}
+              onClick={() => goToPage(page)}
+              className={`px-3 py-1 rounded ${
+                page === currentPage
+                  ? "bg-blue-600 text-white font-bold"
+                  : "bg-white text-black border hover:bg-gray-200"
+              }`}
+            >
+              {page}
+            </button>
+          ))}
+
+      
+          <button
+            onClick={() => goToPage(currentPage + 1)}
+            disabled={currentPage === totalPages}
+            className="px-2 py-1 disabled:text-gray-400"
+          >
+            ›
+          </button>
+          <button
+            onClick={() => goToPage(totalPages)}
+            disabled={currentPage === totalPages}
+            className="px-2 py-1 disabled:text-gray-400"
+          >
+            »
+          </button>
+        </div>
+      )}
     </div>
   );
 }

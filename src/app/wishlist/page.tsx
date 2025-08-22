@@ -44,21 +44,27 @@ export default function WishlistPage() {
                          transition-transform transform hover:scale-105 hover:shadow-lg 
                          duration-300 w-full max-w-[280px] mx-auto h-full flex flex-col"
             >
-              <figure>
+              <Link href={`/product/${mappedProduct.id}`}>
                 <img
                   src={mappedProduct.url}
                   alt={mappedProduct.title}
                   className="h-50 w-full object-cover"
                 />
-              </figure>
+              </Link>
 
               <div className="card-body p-2 flex flex-col gap-2 flex-grow">
-                <h2 className="card-title text-base font-semibold line-clamp-1">
+                <Link
+                  href={`/product/${mappedProduct.id}`}
+                  className="card-title text-base font-semibold line-clamp-1"
+                >
                   {mappedProduct.title}
-                </h2>
-                <p className="text-sm text-gray-500 line-clamp-2 flex-grow">
+                </Link>
+                <Link
+                  href={`/product/${mappedProduct.id}`}
+                  className="text-sm text-gray-500 line-clamp-2 flex-grow"
+                >
                   {mappedProduct.description}
-                </p>
+                </Link>
 
                 <div className="flex items-center justify-between">
                   <p className="font-bold text-sm text-primary">

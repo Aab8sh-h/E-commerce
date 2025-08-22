@@ -3,7 +3,7 @@
     "id": 1,
     "url": "https://plus.unsplash.com/premium_photo-1718913931807-4da5b5dd27fa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHNoaXJ0fGVufDB8fDB8fHww",
     "title": "Classic Cotton T-Shirt",
-    "description": "Soft and breathable cotton t-shirt in size.",
+    "description": "Soft and breathable cotton t-shirt in size and colours.",
     "longDescription": "This classic cotton t-shirt is made from 100% premium cotton, offering maximum breathability and comfort. Available in various sizes and colors, it's perfect for everyday casual wear or layering during colder seasons.",
     "price": 399,
     "rating": 5.0
@@ -48,7 +48,7 @@
     "id": 6,
     "url": "https://images.unsplash.com/photo-1748327929572-2ccf5716d3b9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFuYWxvZyUyMHdhdGNofGVufDB8fDB8fHww",
     "title": "Analog Watch",
-    "description": "Classic analog watch with leather strap.",
+    "description": "Classic analog watch with leather strap and dial.",
     "longDescription": "This timeless analog watch features a stainless steel case and a genuine leather strap. Its minimalist dial design suits formal and casual attire alike, and the quartz movement ensures precise timekeeping.",
     "price": 1800,
     "rating": 3.0
@@ -75,7 +75,7 @@
     "id": 9,
     "url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
     "title": "Smartphone",
-    "description": "Latest smartphone with stunning display.",
+    "description": "Latest smartphone with stunning display and body.",
     "longDescription": "Experience blazing-fast performance and incredible visuals with this latest-gen smartphone. It boasts a multi-lens camera system, AMOLED display, and 5G connectivity—all packed into a sleek design.",
     "price": 24990,
     "rating": 5.0
@@ -93,7 +93,7 @@
     "id": 11,
     "url": "https://images.unsplash.com/photo-1527814050087-3793815479db?q=80&w=1628&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Wireless Mouse",
-    "description": "Ergonomic wireless mouse with tracking.",
+    "description": "Ergonomic wireless mouse with tracking and sensors.",
     "longDescription": "This wireless mouse features an ergonomic shape that fits perfectly in your hand, making it ideal for long working hours. It offers precise tracking, silent clicks, and a long battery life with USB and Bluetooth options.",
     "price": 799,
     "rating": 3.0
@@ -111,7 +111,7 @@
     "id": 13,
     "url": "https://images.unsplash.com/photo-1722532254518-89016ba75a15?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGluc3VsYXRlZCUyMHdhdGVyJTIwYm90dGxlfGVufDB8fDB8fHww",
     "title": "Insulated Water Bottle",
-    "description": "Keeps your drink hot or cold for hours.",
+    "description": "Keeps your drink hot or cold for hours and hot too.",
     "longDescription": "Built with double-wall vacuum insulation, this bottle keeps beverages hot for up to 12 hours or cold for 24 hours. The stainless steel construction ensures durability and zero condensation on the outside.",
     "price": 230,
     "rating": 5.0
@@ -120,7 +120,7 @@
     "id": 14,
     "url": "https://images.unsplash.com/photo-1554412664-6e7b242f969d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwYmFnfGVufDB8fDB8fHww",
     "title": "Laptop Bag",
-    "description": "Sleek and protective laptop carry bag.",
+    "description": "Sleek and protective laptop carry bag and fashionable.",
     "longDescription": "This laptop bag is lightweight yet durable, with padded compartments to secure your device and essential accessories. The water-resistant fabric and ergonomic straps make it ideal for daily commute and travel.",
     "price": 600,
     "rating": 3.5
@@ -138,7 +138,7 @@
     "id": 16,
     "url": "https://images.unsplash.com/photo-1598620617137-2ab990aadd37?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BpcmFsJTIwbm90ZWJvb2t8ZW58MHx8MHx8fDA%3D",
     "title": "Spiral Notebook",
-    "description": "A5 size notebook with 200 ruled pages.",
+    "description": "A5 size notebook with 200 ruled pages structured.",
     "longDescription": "This spiral-bound notebook offers 200 crisp, acid-free ruled pages. It's perfect for students and professionals, with a durable cover and smooth pages that minimize ink bleed-through.",
     "price": 113,
     "rating": 2.0
@@ -156,7 +156,7 @@
     "id": 18,
     "url": "https://images.unsplash.com/photo-1585995603413-eb35b5f4a50b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBvd2VyYmFua3xlbnwwfHwwfHx8MA%3D%3D",
     "title": "10000mAh Power Bank",
-    "description": "Portable charger with dual USB ports. Big 10000mAh battery.",
+    "description": "Portable charger with dual USB ports. Big 10000mAh.",
     "longDescription": "Stay charged on the go with this compact power bank featuring 10000mAh capacity. It includes dual USB ports, LED indicators, and intelligent safety features like overcharge and short-circuit protection.",
     "price": 1100,
     "rating": 4.5
@@ -165,7 +165,7 @@
     "id": 19,
     "url": "https://images.unsplash.com/photo-1598034989845-48532781987e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D",
     "title": "Bluetooth Speaker",
-    "description": "Compact speaker with powerful bass.",
+    "description": "Compact speaker with powerful bass and noise.",
     "longDescription": "Enjoy high-quality sound with this portable Bluetooth speaker. It features deep bass, a long-lasting battery, and water resistance, making it perfect for both indoor and outdoor entertainment.",
     "price": 760,
     "rating": 4.5
@@ -192,7 +192,7 @@
     "id": 22,
     "url": "https://images.unsplash.com/photo-1579014134953-1580d7f123f3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2FsbGV0fGVufDB8fDB8fHww",
     "title": "Leather Wallet",
-    "description": "Slim wallet with multiple card slots.",
+    "description": "Slim wallet with multiple card slots and cash.",
     "longDescription": "Made from genuine leather, this slim wallet offers multiple card slots, a bill compartment, and RFID-blocking technology. Its sleek design fits comfortably in your pocket while keeping essentials secure.",
     "price": 760,
     "rating": 2.0
@@ -210,7 +210,7 @@
     "id": 24,
     "url": "https://images.unsplash.com/photo-1567727014928-5f4aa30c4c15?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2VsJTIwcGVuJTIwc2V0fGVufDB8fDB8fHww",
     "title": "Pen Set",
-    "description": "Pack of all smooth-flow thick pens.",
+    "description": "Pack of all smooth-flow thick pens in colours.",
     "longDescription": "This gel pen set includes assorted colors with smooth-flow ink and ergonomic grips. The pens are perfect for note-taking, drawing, journaling, or office use, offering crisp, bold lines every time.",
     "price": 110,
     "rating": 4.0
@@ -246,7 +246,7 @@
     "id": 28,
     "url": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWFyYnVkc3xlbnwwfHwwfHx8MA%3D%3D",
     "title": "Bluetooth Earbuds",
-    "description": "Wireless earbuds with immersive sound.",
+    "description": "Wireless earbuds with immersive sound and bass.",
     "longDescription": "Experience crystal-clear sound and noise isolation with these Bluetooth earbuds. Long battery life and sweat resistance make them ideal for workouts or travel.",
     "price": 1300,
     "rating": 1.5
@@ -291,7 +291,7 @@
     "id": 33,
     "url": "https://images.unsplash.com/photo-1659066019874-7a15628cea60?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyaXAlMjBsaWdodHN8ZW58MHx8MHx8fDA%3D",
     "title": "LED Strip Lights",
-    "description": "Remote-controlled RGB LED strip lights.",
+    "description": "Remote-controlled RGB LED strip lights with colours.",
     "longDescription": "Add ambiance to any space with these LED lights. Includes remote and music sync mode for parties or relaxation.",
     "price": 460,
     "rating": 4.5
@@ -309,7 +309,7 @@
     "id": 35,
     "url": "https://images.unsplash.com/photo-1525103504173-8dc1582c7430?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHVmZmVsJTIwYmFnfGVufDB8fDB8fHww",
     "title": "Duffel Bag",
-    "description": "Durable bag for gym, travel, or sports.",
+    "description": "Durable bag for gym, travel, or sports and casual.",
     "longDescription": "This versatile duffel bag offers ample space, shoe compartment, and water-resistant fabric. Ideal for gym sessions or weekend trips.",
     "price": 750,
     "rating": 4.5
@@ -363,7 +363,7 @@
     "id": 41,
     "url": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zml0bmVzcyUyMHRyYWNrZXJ8ZW58MHx8MHx8fDA%3D",
     "title": "Fitness Tracker",
-    "description": "Tracks steps, sleep, and heart rate.",
+    "description": "Tracks steps, sleep, heart rate and schedule.",
     "longDescription": "Track your health stats with precision. Includes sleep monitoring, step count, heart rate tracking, and more. Long-lasting battery.",
     "price": 220,
     "rating": 3.0
@@ -372,7 +372,7 @@
     "id": 42,
     "url": "https://images.unsplash.com/photo-1616524617587-2ddb5ccf87cc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNjcmVlbiUyMGdsb3Zlc3xlbnwwfHwwfHx8MA%3D%3D",
     "title": "Touchscreen Gloves",
-    "description": "Warm gloves compatible with devices.",
+    "description": "Warm gloves compatible with devices and touchscreens.",
     "longDescription": "Touchscreen gloves made from warm fleece material. Stay connected and warm during winter without removing your gloves.",
     "price": 89,
     "rating": 4.5
@@ -390,7 +390,7 @@
     "id": 44,
     "url": "https://images.unsplash.com/photo-1621607511490-c15010fe989c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhaXIlMjBkcnllcnxlbnwwfHwwfHx8MA%3D%3D",
     "title": "Hair Dryer",
-    "description": "Fast-drying and powerful hair dryer.",
+    "description": "Fast-drying and powerful hair dryer for all gender.",
     "longDescription": "Lightweight and efficient, this hair dryer has multiple heat settings, ionic technology, and a foldable handle for travel.",
     "price": 1100,
     "rating": 2.5
@@ -408,7 +408,7 @@
     "id": 46,
     "url": "https://images.unsplash.com/photo-1599907370087-e0955afcb920?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2F0JTIwdHJlZSUyMHRvd2VyfGVufDB8fDB8fHww",
     "title": "Cat Tree Tower",
-    "description": "Fun and safe play tower for cats.",
+    "description": "Fun and safe play tower for cats and other fluffies.",
     "longDescription": "Give your cat a fun place to play, climb, and nap. This sturdy cat tower includes sisal-wrapped posts and cozy hideouts.",
     "price": 1200,
     "rating": 2.1
@@ -417,7 +417,7 @@
     "id": 47,
     "url": "https://plus.unsplash.com/premium_photo-1661391536771-f18becd9f76e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29mZmVlJTIwZ3JpbmRlcnxlbnwwfHwwfHx8MA%3D%3D",
     "title": "Coffee Grinder",
-    "description": "Electric grinder for fresh coffee beans.",
+    "description": "Electric grinder for fresh coffee beans to make expresso.",
     "longDescription": "Brew fresh coffee every morning with this compact grinder. Features stainless steel blades and adjustable grind settings.",
     "price": 1604,
     "rating": 5.0
@@ -426,7 +426,7 @@
     "id": 48,
     "url": "https://images.unsplash.com/photo-1631447661435-b86ae5ecd564?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNraW5jYXJlJTIwc2V0fGVufDB8fDB8fHww",
     "title": "Skincare Set",
-    "description": "Complete skincare routine kit.",
+    "description": "Complete skincare routine kit for glowing skin.",
     "longDescription": "Includes cleanser, toner, moisturizer, and SPF cream. Perfect for daily skincare routines and suitable for all skin types.",
     "price": 1980,
     "rating": 3.4
@@ -444,7 +444,7 @@
     "id": 50,
     "url": "https://images.unsplash.com/photo-1579161592964-1425c669944e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwY3VwfGVufDB8fDB8fHww",
     "title": "Reusable Water Cup",
-    "description": "Eco-friendly and stylish reusable cup.",
+    "description": "Eco-friendly and stylish reusable cup with instilled paper.",
     "longDescription": "Double-walled and leakproof, this cup keeps drinks hot or cold for hours. Includes a silicone sleeve for grip and comfort.",
     "price": 69,
     "rating": 2.3

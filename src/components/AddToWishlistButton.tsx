@@ -27,14 +27,14 @@ export default function AddToWishlistButton({ product }: Props) {
               rating: product.rating,
             })
       }
-      className={`px-3 py-1.5 text-sm rounded-lg font-medium shadow-md transition-transform duration-300
+      className={`px-2 sm:px-3 py-1 sm:py-1.5 text-base sm:text-sm rounded-lg font-medium shadow-md transition-transform duration-300
         ${
           inWishlist
-            ? "bg-red-500 hover:bg-red-600 text-white"
-            : "bg-pink-500 hover:bg-pink-600 text-white"
+            ? "bg-pink-100 text-pink-600 hover:bg-pink-200"
+            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
         }`}
     >
-      {inWishlist ? "🤍" : "💗"}
+      {inWishlist ? "💗" : "🩶"}
     </button>
   );
 }

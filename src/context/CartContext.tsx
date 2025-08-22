@@ -19,7 +19,7 @@ type CartItem = {
 
 type CartContextType = {
   cart: CartItem[];
-  addToCart: (item: Omit<CartItem, "quantity">) => void;
+  addToCart: (item: Omit<CartItem, "quantity">, quantity?: number) => void;
   removeFromCart: (id: number) => void;
   increaseQuantity: (id: number) => void;
   decreaseQuantity: (id: number) => void;
@@ -42,15 +42,19 @@ export function CartProvider({ children }: { children: ReactNode }) {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
 
-  const addToCart = (item: Omit<CartItem, "quantity">) => {
+  const addToCart = (
+    item: Omit<CartItem, "quantity">,
+    quantity: number = 1
+  ) => {
     setCart((prev) => {
       const existing = prev.find((p) => p.id === item.id);
       if (existing) {
         return prev.map((p) =>
-          p.id === item.id ? { ...p, quantity: p.quantity + 1 } : p
+          p.id === item.id ? { ...p, quantity: p.quantity + quantity } : p
         );
       }
-      return [...prev, { ...item, quantity: 1 }];
+
+      return [...prev, { ...item, quantity }];
     });
   };
 
@@ -63,11 +67,10 @@ export function CartProvider({ children }: { children: ReactNode }) {
     );
 
   const decreaseQuantity = (id: number) =>
-    setCart(
-      (prev) =>
-        prev
-          .map((p) => (p.id === id ? { ...p, quantity: p.quantity - 1 } : p))
-          .filter((p) => p.quantity > 0) // auto-remove if 0
+    setCart((prev) =>
+      prev
+        .map((p) => (p.id === id ? { ...p, quantity: p.quantity - 1 } : p))
+        .filter((p) => p.quantity > 0)
     );
 
   const clearCart = () => setCart([]);

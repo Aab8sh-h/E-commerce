@@ -23,12 +23,14 @@ export default async function HomePage() {
 
   return (
     <main className="bg-base-200 min-h-screen">
-      <section className="px-6 py-10 max-w-7xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold text-center text-base-content mb-8 tracking-wide">
+      <section className="px-4 sm:px-6 lg:px-8 py-10 max-w-7xl mx-auto">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-base-content mb-6 sm:mb-8 pt-6 sm:pt-7 tracking-wide leading-snug">
           Explore Our Products
         </h1>
 
-        <Search products={products} />
+        <div className="w-full">
+          <Search products={products} />
+        </div>
       </section>
     </main>
   );
