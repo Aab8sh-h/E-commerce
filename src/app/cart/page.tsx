@@ -28,9 +28,9 @@ export default function CartPage() {
   }
 
   return (
-    <main className="bg-base-200 min-h-screen px-6 py-10">
-      <h2 className="text-2xl font-bold mb-8 text-center text-base-content">
-        Your Cart
+    <main className="bg-base-200 min-h-screen px-6 py-10 pt-20">
+      <h2 className="text-4xl font-bold mb-8 text-center text-base-content pb-10">
+        Your Cart🛒
       </h2>
 
       <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">

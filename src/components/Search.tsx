@@ -19,7 +19,7 @@ interface SearchProps {
 
 export default function Search({ products }: SearchProps) {
   const [searchQuery, setSearchQuery] = useState("");
-  const [debouncedQuery, setDebouncedQuery] = useState(""); // debounced version
+  const [debouncedQuery, setDebouncedQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 12;
 
@@ -28,14 +28,14 @@ export default function Search({ products }: SearchProps) {
     const handler = setTimeout(() => {
       setDebouncedQuery(searchQuery);
       setCurrentPage(1);
-    }, 300);
+    }, 400);
 
     return () => {
       clearTimeout(handler);
     };
   }, [searchQuery]);
 
-  // Filtering uses debounced query instead
+  // Filtering
   const filteredProducts = products.filter(
     (product) =>
       product.title.toLowerCase().includes(debouncedQuery.toLowerCase()) ||

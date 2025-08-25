@@ -1,18 +1,23 @@
 import { Product } from "@/types/Products";
 import path from "path";
 import fs from "fs";
-import Link from "next/link";
 import { FaStar } from "react-icons/fa";
-import AddToCartButton from "@/components/AddToCartButton";
-import AddToWishlistButton from "@/components/AddToWishlistButton";
 import QuantitySelector from "@/components/QuantitySelector";
+import ProductGallery from "@/components/ProductGallery";
 
 async function getProduct(id: string): Promise<Product | null> {
   const filePath = path.join(process.cwd(), "data", "products.json");
   const jsonData = await fs.promises.readFile(filePath, "utf-8");
   const products: Product[] = JSON.parse(jsonData);
 
-  return products.find((p) => p.id.toString() === id) || null;
+  const product = products.find((p) => p.id.toString() === id);
+  if (!product) return null;
+
+  const images = [product.url, product.url2, product.url3, product.url4].filter(
+    Boolean
+  );
+
+  return { ...product, images } as Product & { images: string[] };
 }
 
 type Props = {
@@ -33,13 +38,7 @@ export default async function ProductPage({ params }: Props) {
   return (
     <div className="container mx-auto px-4 py-10 pt-35">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div className="flex justify-center">
-          <img
-            src={product.url}
-            alt={product.title}
-            className="rounded-xl shadow-lg max-h-[400px] object-contain"
-          />
-        </div>
+        <ProductGallery images={product.images ?? []} />
 
         <div className="flex flex-col gap-6">
           <h1 className="text-3xl font-bold">{product.title}</h1>
@@ -72,14 +71,3 @@ export default async function ProductPage({ params }: Props) {
     </div>
   );
 }
-//  <div className="flex gap-4">
-//             <AddToCartButton product={product} />
-//             <AddToWishlistButton product={product} />
-//           </div>
-
-//           <Link
-//             href="/"
-//             className="inline-flex items-center px-5 py-2 rounded-lg border border-gray-400 text-gray-700 font-medium hover:bg-gray-900 hover:text-white hover:shadow-lg hover:shadow-gray-500/60 hover:scale-105 transition-all duration-300 w-fit"
-//           >
-//             ← Back to Home
-//           </Link>
