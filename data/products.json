@@ -9,7 +9,8 @@
     "description": "Soft and breathable cotton t-shirt in size and colours.",
     "longDescription": "This classic cotton t-shirt is made from 100% premium cotton, offering maximum breathability and comfort. Available in various sizes and colors, it's perfect for everyday casual wear or layering during colder seasons.",
     "price": 399,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": "T-shirt"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "description": "Comfortable and stylish jeans with a modern fit.",
     "longDescription": "Crafted from high-quality denim, these slim fit jeans provide a flattering silhouette while ensuring ease of movement. They feature a classic five-pocket design and are perfect for both casual and semi-formal settings.",
     "price": 799,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "description": "Lightweight running shoes with cushioned soles.",
     "longDescription": "These running sneakers are designed for both amateurs and pros. Featuring breathable mesh uppers, cushioned insoles, and non-slip soles, they provide excellent grip and support for long-distance runs or casual strolls.",
     "price": 790,
-    "rating": 3.0
+    "rating": 3.0,
+    "category": ""
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "description": "Spacious backpack for work, travel, or school.",
     "longDescription": "With a capacity of up to 30L, this backpack features multiple compartments including a padded laptop sleeve, water bottle holders, and a USB charging port. It's designed for comfort with adjustable straps and breathable padding.",
     "price": 1260,
-    "rating": 3.5
+    "rating": 3.5,
+    "category": ""
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "description": "Noise-cancelling headphones with Bluetooth.",
     "longDescription": "Enjoy immersive audio with these over-ear wireless headphones featuring active noise cancellation, deep bass, and up to 30 hours of battery life. Compatible with all Bluetooth devices for seamless connectivity.",
     "price": 1630,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "description": "Classic analog watch with leather strap and dial.",
     "longDescription": "This timeless analog watch features a stainless steel case and a genuine leather strap. Its minimalist dial design suits formal and casual attire alike, and the quartz movement ensures precise timekeeping.",
     "price": 1800,
-    "rating": 3.0
+    "rating": 3.0,
+    "category": ""
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "description": "Stylish denim jacket perfect for casual outings.",
     "longDescription": "A wardrobe staple, this denim jacket is made with durable washed denim and features button-down front, chest pockets, and tailored seams. Great for layering and suitable for all seasons.",
     "price": 1500,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "description": "Lightweight laptop with powerful performance.",
     "longDescription": "This laptop is equipped with a high-speed processor, SSD storage, and full HD display, making it ideal for work, study, or entertainment. It offers long battery life and a sleek, lightweight design for portability.",
     "price": 69990,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "description": "Latest smartphone with stunning display and body.",
     "longDescription": "Experience blazing-fast performance and incredible visuals with this latest-gen smartphone. It boasts a multi-lens camera system, AMOLED display, and 5G connectivity—all packed into a sleek design.",
     "price": 24990,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
     "description": "Tactile mechanical keyboard with RGB lighting.",
     "longDescription": "Designed for typists and gamers alike, this mechanical keyboard features tactile switches, customizable RGB lighting, and anti-ghosting keys for a responsive and vibrant typing experience.",
     "price": 750,
-    "rating": 1.5
+    "rating": 1.5,
+    "category": ""
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
     "description": "Ergonomic wireless mouse with tracking and sensors.",
     "longDescription": "This wireless mouse features an ergonomic shape that fits perfectly in your hand, making it ideal for long working hours. It offers precise tracking, silent clicks, and a long battery life with USB and Bluetooth options.",
     "price": 799,
-    "rating": 3.0
+    "rating": 3.0,
+    "category": ""
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
     "description": "Elegant leather shoes suitable for office wear.",
     "longDescription": "Crafted from premium leather, these formal shoes offer both style and comfort. The cushioned insole and durable sole provide support for all-day wear, perfect for office meetings or formal events.",
     "price": 650,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
     "description": "Keeps your drink hot or cold for hours and hot too.",
     "longDescription": "Built with double-wall vacuum insulation, this bottle keeps beverages hot for up to 12 hours or cold for 24 hours. The stainless steel construction ensures durability and zero condensation on the outside.",
     "price": 230,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
     "description": "Sleek and protective laptop carry bag and fashionable.",
     "longDescription": "This laptop bag is lightweight yet durable, with padded compartments to secure your device and essential accessories. The water-resistant fabric and ergonomic straps make it ideal for daily commute and travel.",
     "price": 600,
-    "rating": 3.5
+    "rating": 3.5,
+    "category": ""
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
     "description": "Quick adapter compatible with all devices.",
     "longDescription": "This fast charger supports multiple charging protocols including Quick Charge and Power Delivery. Its compact design fits easily in your pocket or bag, and it’s compatible with smartphones, tablets, and more.",
     "price": 330,
-    "rating": 1.0
+    "rating": 1.0,
+    "category": ""
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
     "description": "A5 size notebook with 200 ruled pages structured.",
     "longDescription": "This spiral-bound notebook offers 200 crisp, acid-free ruled pages. It's perfect for students and professionals, with a durable cover and smooth pages that minimize ink bleed-through.",
     "price": 113,
-    "rating": 2.0
+    "rating": 2.0,
+    "category": ""
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
     "description": "Adjustable LED desk lamp for study or office use.",
     "longDescription": "This LED desk lamp features adjustable brightness levels, a flexible neck, and an eye-care light panel. It’s energy-efficient and perfect for reading, writing, or working at night without eye strain.",
     "price": 250,
-    "rating": 3.5
+    "rating": 3.5,
+    "category": ""
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
     "description": "Portable charger with dual USB ports. Big 10000mAh.",
     "longDescription": "Stay charged on the go with this compact power bank featuring 10000mAh capacity. It includes dual USB ports, LED indicators, and intelligent safety features like overcharge and short-circuit protection.",
     "price": 1100,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
     "description": "Compact speaker with powerful bass and noise.",
     "longDescription": "Enjoy high-quality sound with this portable Bluetooth speaker. It features deep bass, a long-lasting battery, and water resistance, making it perfect for both indoor and outdoor entertainment.",
     "price": 760,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
     "description": "Long-lasting fresh fragrance for daily wear.",
     "longDescription": "This men’s perfume offers a refined blend of citrus, spices, and woody notes. Its long-lasting formula keeps you smelling fresh throughout the day, perfect for both office and evening wear.",
     "price": 340,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
     "description": "Adjustable cap for sun protection and style.",
     "longDescription": "Stay cool and stylish with this classic baseball cap made from breathable cotton. It features an adjustable strap for a perfect fit and a curved brim to shield your eyes from the sun.",
     "price": 205,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
     "description": "Slim wallet with multiple card slots and cash.",
     "longDescription": "Made from genuine leather, this slim wallet offers multiple card slots, a bill compartment, and RFID-blocking technology. Its sleek design fits comfortably in your pocket while keeping essentials secure.",
     "price": 760,
-    "rating": 2.0
+    "rating": 2.0,
+    "category": ""
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
     "description": "UV-protected stylish sunglasses for all ages.",
     "longDescription": "These polarized sunglasses reduce glare and enhance clarity, making them ideal for driving and outdoor activities. They come with UV400 protection and a lightweight frame that fits comfortably on any face.",
     "price": 400,
-    "rating": 3.0
+    "rating": 3.0,
+    "category": ""
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
     "description": "Pack of all smooth-flow thick pens in colours.",
     "longDescription": "This gel pen set includes assorted colors with smooth-flow ink and ergonomic grips. The pens are perfect for note-taking, drawing, journaling, or office use, offering crisp, bold lines every time.",
     "price": 110,
-    "rating": 4.0
+    "rating": 4.0,
+    "category": ""
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
     "description": "Comfortable chair with lumbar and soft support.",
     "longDescription": "This office chair features an adjustable seat, lumbar support, and breathable mesh back. Designed to improve posture and reduce fatigue, it's ideal for home or office use for extended work sessions.",
     "price": 11000,
-    "rating": 3.0
+    "rating": 3.0,
+    "category": ""
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
     "description": "Cozy and stylish hoodie with a bold graphic print.",
     "longDescription": "Made from high-quality cotton and fleece, this hoodie offers comfort and style with a front pouch and drawstring hood. Ideal for chilly days and casual outings.",
     "price": 650,
-    "rating": 1.5
+    "rating": 1.5,
+    "category": ""
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
     "description": "Non-slip yoga mat for workouts and meditation.",
     "longDescription": "Our yoga mat is made from eco-friendly material with a non-slip surface. It provides excellent cushioning for your joints during yoga, pilates, or stretching.",
     "price": 390,
-    "rating": 1.0
+    "rating": 1.0,
+    "category": ""
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
     "description": "Wireless earbuds with immersive sound and bass.",
     "longDescription": "Experience crystal-clear sound and noise isolation with these Bluetooth earbuds. Long battery life and sweat resistance make them ideal for workouts or travel.",
     "price": 1300,
-    "rating": 1.5
+    "rating": 1.5,
+    "category": ""
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
     "description": "Lightweight shirt for daily comfort and style.",
     "longDescription": "Crafted with breathable fabric, this shirt ensures comfort and style whether you're at work or out with friends. Available in multiple colors and sizes.",
     "price": 920,
-    "rating": 2.5
+    "rating": 2.5,
+    "category": ""
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
     "description": "Ergonomic mouse with customizable buttons.",
     "longDescription": "This gaming mouse features adjustable DPI, RGB lighting, and programmable buttons for an optimized gaming experience. Built to fit all hand sizes.",
     "price": 1300,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
     "description": "Spacious and modern office desk with drawers.",
     "longDescription": "Designed for productivity,this desk includes multiple drawers, cable management, and a sturdy wood finish. Perfect for home or office use",
     "price": 2700,
-    "rating": 1.5
+    "rating": 1.5,
+    "category": ""
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
     "description": "Digital watch with fitness tracking features.",
     "longDescription": "Keep track of your steps, calories, heart rate, and more with this waterproof sports watch. Syncs easily with your phone via Bluetooth.",
     "price": 4990,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
     "description": "Remote-controlled RGB LED strip lights with colours.",
     "longDescription": "Add ambiance to any space with these LED lights. Includes remote and music sync mode for parties or relaxation.",
     "price": 460,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
     "description": "USB microphone with clear audio recording.",
     "longDescription": "Perfect for podcasts, calls, or streaming, this USB mic delivers professional-quality sound with easy plug-and-play setup.",
     "price": 1500,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
     "description": "Durable bag for gym, travel, or sports and casual.",
     "longDescription": "This versatile duffel bag offers ample space, shoe compartment, and water-resistant fabric. Ideal for gym sessions or weekend trips.",
     "price": 750,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
     "description": "Flexible tripod for mobile phones and cameras.",
     "longDescription": "Compact and adjustable, this tripod is perfect for mobile photography, vlogging, or video calls. Works with most phones and cameras.",
     "price": 430,
-    "rating": 3.5
+    "rating": 3.5,
+    "category": ""
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
     "description": "Mini projector for home theater experience.",
     "longDescription": "Enjoy movies anywhere with this portable projector. Features HDMI, USB, and Wi-Fi connectivity. Supports up to 1080p resolution.",
     "price": 1210,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
     "description": "Smart temperature control for your home.",
     "longDescription": "Maintain your perfect room temperature with this smart thermostat. Features remote control, scheduling, and energy-saving modes.",
     "price": 2200,
-    "rating": 2.0
+    "rating": 2.0,
+    "category": ""
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
     "description": "Charging stand compatible with all phones.",
     "longDescription": "Charge your device quickly with this wireless stand. Supports fast charging for all major brands and holds your phone upright.",
     "price": 1320,
-    "rating": 1.5
+    "rating": 1.5,
+    "category": ""
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
     "description": "Space-saving foldable desk for any room.",
     "longDescription": "This foldable table is easy to store and ideal for small spaces. Use it as a study desk, dining table, or work station.",
     "price": 1300,
-    "rating": 3.5
+    "rating": 3.5,
+    "category": ""
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
     "description": "Tracks steps, sleep, heart rate and schedule.",
     "longDescription": "Track your health stats with precision. Includes sleep monitoring, step count, heart rate tracking, and more. Long-lasting battery.",
     "price": 220,
-    "rating": 3.0
+    "rating": 3.0,
+    "category": ""
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
     "description": "Warm gloves compatible with devices and touchscreens.",
     "longDescription": "Touchscreen gloves made from warm fleece material. Stay connected and warm during winter without removing your gloves.",
     "price": 89,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
     "description": "Set of aromatic candles in different scents.",
     "longDescription": "Set of three candles made from soy wax with relaxing scents like lavender, vanilla, and sandalwood. Burns clean and long-lasting.",
     "price": 110,
-    "rating": 4.5
+    "rating": 4.5,
+    "category": ""
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
     "description": "Fast-drying and powerful hair dryer for all gender.",
     "longDescription": "Lightweight and efficient, this hair dryer has multiple heat settings, ionic technology, and a foldable handle for travel.",
     "price": 1100,
-    "rating": 2.5
+    "rating": 2.5,
+    "category": ""
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
     "description": "Soft silk pillowcase for smooth skin and hair.",
     "longDescription": "Gentle on skin and hair, this silk pillowcase helps reduce wrinkles and hair frizz. Available in multiple colors.",
     "price": 320,
-    "rating": 1.0
+    "rating": 1.0,
+    "category": ""
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
     "description": "Fun and safe play tower for cats and other fluffies.",
     "longDescription": "Give your cat a fun place to play, climb, and nap. This sturdy cat tower includes sisal-wrapped posts and cozy hideouts.",
     "price": 1200,
-    "rating": 2.1
+    "rating": 2.1,
+    "category": ""
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
     "description": "Electric grinder for fresh coffee beans to make expresso.",
     "longDescription": "Brew fresh coffee every morning with this compact grinder. Features stainless steel blades and adjustable grind settings.",
     "price": 1604,
-    "rating": 5.0
+    "rating": 5.0,
+    "category": ""
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
     "description": "Complete skincare routine kit for glowing skin.",
     "longDescription": "Includes cleanser, toner, moisturizer, and SPF cream. Perfect for daily skincare routines and suitable for all skin types.",
     "price": 1980,
-    "rating": 3.4
+    "rating": 3.4,
+    "category": ""
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
     "description": "Framed artwork for home and office walls.",
     "longDescription": "High-quality canvas print with vivid colors and a wooden frame. Great for decorating bedrooms, offices, or living rooms.",
     "price": 2345,
-    "rating": 2.6
+    "rating": 2.6,
+    "category": ""
   },
   {
     "id": 50,
@@ -597,6 +646,7 @@
     "description": "Eco-friendly and stylish reusable cup with instilled paper.",
     "longDescription": "Double-walled and leakproof, this cup keeps drinks hot or cold for hours. Includes a silicone sleeve for grip and comfort.",
     "price": 69,
-    "rating": 2.3
+    "rating": 2.3,
+    "category": ""
   }
 ]
