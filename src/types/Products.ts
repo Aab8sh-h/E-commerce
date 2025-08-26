@@ -10,4 +10,5 @@ export type Product = {
   url3?: string;
   url4?: string;
   images?: string[];
+  category: string;
 };
