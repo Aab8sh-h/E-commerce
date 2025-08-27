@@ -29,6 +29,7 @@ export default function Search({ products }: SearchProps) {
 
   const productsPerPage = 12;
 
+  // debounce search
   useEffect(() => {
     const handler = setTimeout(() => {
       setDebouncedQuery(searchQuery);
@@ -71,10 +72,14 @@ export default function Search({ products }: SearchProps) {
 
   return (
     <div className="relative">
+      {/* Sidebar container: fixed drawer on mobile, static on lg+ */}
       <div
-        className={`fixed top-0 left-0 h-screen w-60 bg-white shadow-lg z-40 transform transition-transform duration-300
-    ${isFiltersOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}
+        className={`fixed top-0 left-0 h-full w-60 bg-white shadow-lg z-40 transform transition-transform duration-300
+          ${
+            isFiltersOpen ? "translate-x-0" : "-translate-x-full"
+          } lg:translate-x-0 lg:sticky lg:h-auto lg:w-60 lg:shadow-none`}
       >
+        {/* Render your existing sidebar component (no API change needed) */}
         <FiltersSidebar
           selectedCategories={selectedCategories}
           setSelectedCategories={setSelectedCategories}
@@ -84,6 +89,7 @@ export default function Search({ products }: SearchProps) {
         />
       </div>
 
+      {/* Overlay for mobile when drawer is open */}
       {isFiltersOpen && (
         <div
           className="fixed inset-0 bg-black/40 z-30 lg:hidden"
@@ -91,9 +97,59 @@ export default function Search({ products }: SearchProps) {
         />
       )}
 
+      {/* Main content (shift right on lg so it doesn't sit under the fixed sidebar) */}
       <div className="flex-1 lg:ml-60 p-6">
-        <div className="mb-8 flex justify-center">
+        {/* Search bar + Filter button (filter button visible only on small screens) */}
+        {/* Search bar + Active filters */}
+        <div className="mb-8 flex flex-col gap-4">
+          {/* Active filters row */}
+          <div className="flex flex-wrap items-center gap-2">
+            {selectedCategories.length === 0 && selectedRating === null ? (
+              <span className="text-gray-400 text-sm">-</span>
+            ) : (
+              <>
+                {selectedCategories.map((cat) => (
+                  <span
+                    key={cat}
+                    className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm flex items-center gap-1"
+                  >
+                    {cat}
+                    <button
+                      onClick={() =>
+                        setSelectedCategories((prev) =>
+                          prev.filter((c) => c !== cat)
+                        )
+                      }
+                      className="text-blue-500 hover:text-blue-700"
+                    >
+                      ✕
+                    </button>
+                  </span>
+                ))}
+                {selectedRating && (
+                  <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm flex items-center gap-1">
+                    ⭐ {selectedRating}+
+                    <button
+                      onClick={() => setSelectedRating(null)}
+                      className="text-yellow-600 hover:text-yellow-800"
+                    >
+                      ✕
+                    </button>
+                  </span>
+                )}
+                <button
+                  onClick={clearFilters}
+                  className="ml-2 text-sm text-red-500 hover:underline"
+                >
+                  Clear all
+                </button>
+              </>
+            )}
+          </div>
+
+          {/* Search bar row */}
           <div className="w-full max-w-md flex items-center gap-2">
+            {/* input container */}
             <div className="relative flex-1">
               <input
                 type="text"
@@ -101,8 +157,8 @@ export default function Search({ products }: SearchProps) {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="🔍 Search for products..."
                 className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 
-                         shadow-sm focus:border-primary focus:ring-2 focus:ring-primary/30 
-                         outline-none transition-all duration-300 text-sm sm:text-base"
+                 shadow-sm focus:border-primary focus:ring-2 focus:ring-primary/30 
+                 outline-none transition-all duration-300 text-sm sm:text-base"
               />
               {searchQuery && (
                 <button
@@ -115,6 +171,7 @@ export default function Search({ products }: SearchProps) {
               )}
             </div>
 
+            {/* Filter button — shown only on small screens */}
             <button
               onClick={() => setIsFiltersOpen(true)}
               className="lg:hidden flex items-center justify-center px-3 py-2 border rounded-md bg-white shadow-sm hover:bg-gray-50"
@@ -138,7 +195,8 @@ export default function Search({ products }: SearchProps) {
           </div>
         </div>
 
-        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {/* Product Grid — auto-fit / responsive would be better, but keeping your cols */}
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4  w-full">
           {currentProducts.length > 0 ? (
             currentProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
